@@ -1,0 +1,20 @@
+{
+  "apiType": 'stageMode',
+  "buildOption": {
+    "sourceOption": {
+      // 添加worker配置，否则不生效
+      "workers": [
+        './src/main/ets/pages/Chapter2/Async/1_Worker/ExampleWork.ets'
+      ]
+    }
+  },
+  "targets": [
+    {
+      "name": "default",
+      "runtimeOS": "HarmonyOS"
+    },
+    {
+      "name": "ohosTest",
+    }
+  ]
+}
